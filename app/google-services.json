@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334579097062",
+    "project_id": "notes-4a774",
+    "storage_bucket": "notes-4a774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334579097062:android:b9e370e10ccf9cadb0ca27",
+        "android_client_info": {
+          "package_name": "ir.shariati.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLBXzIg4A-hFrUI2BmLvWUhxlst0dvLPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

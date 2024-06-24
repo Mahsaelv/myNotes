@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#070F2B">
+
+    <EditText
+        android:id="@+id/noteTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9290C3"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:elevation="4dp" />
+
+    <EditText
+        android:id="@+id/noteDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9290C3"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/saveNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:elevation="8dp" />
+</LinearLayout>

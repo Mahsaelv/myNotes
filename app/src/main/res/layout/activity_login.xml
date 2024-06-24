@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#070F2B">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9290C3"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9290C3"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#535C91"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:elevation="8dp" />
+</LinearLayout>
